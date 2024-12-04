@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  background-color: #f0f8ff;
+  flex-direction: column;
+}
+
+.loginbody {
+  font-family: Arial, sans-serif;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  background-image: url('../image/maybay.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.loginContainer {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 30px;
+  border-radius: 15px;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  backdrop-filter: blur(8px);
+}
+
+.loginContainer img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+}
+
+.loginContainer h2 {
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.input {
+  width: 100%;
+  padding: 12px;
+  margin: 12px 0;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+.input:focus {
+  border-color: #4b6cb7;
+  outline: none;
+  box-shadow: 0px 0px 8px rgba(75, 108, 183, 0.3);
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #666;
+}
+
+.checkbox {
+  margin-right: 8px;
+}
+
+.loginButton {
+  width: 100%;
+  padding: 12px;
+  background-color: #218838;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s;
+}
+
+.loginButton:hover {
+  background-color: #196c2e;
+  transform: scale(1.05);
+}
+
+.loginButton:active {
+  background-color: #145922;
+  transform: scale(0.95);
+}
+
+.loginContainer p {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #666;
+}
+
+.loginContainer p a {
+  color: #4b6cb7;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.loginContainer p a:hover {
+  text-decoration: underline;
+}
+
+.socialLogin {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.socialButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.3s;
+  color: white;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.socialButton:hover {
+  transform: translateY(-2px);
+}
+
+.socialButton img {
+  width: 22px;
+  height: 22px;
+  margin-right: 8px;
+}
+
+.googleButton {
+  background-color: #db4437;
+}
+
+.googleButton:hover {
+  background-color: #c53830;
+}
+
+.facebookButton {
+  background-color: #3b5998;
+}
+
+.facebookButton:hover {
+  background-color: #324b86;
+}
+
+@media (max-width: 480px) {
+  .loginContainer {
+    padding: 20px;
+    max-width: 90vw;
+    border-radius: 10px;
+  }
+
+  .loginContainer h2 {
+    font-size: 22px;
+  }
+
+  .socialButton {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .loginButton {
+    padding: 10px;
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,120 @@
+.signupbody {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    background-image: url('../image/maybay.jpg');
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-color: white;
+    height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.95);
+    border: 1px solid #d8dee4;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    margin: auto;
+}
+
+.container img {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #0056b3;
+}
+
+h2 {
+    color: #333;
+    font-size: 1.75em;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.formRow {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.formGroup {
+    flex: 1;
+    margin-bottom: 15px;
+    padding-right: 10px;
+    text-align: left;
+}
+
+.formGroup:last-child {
+    padding-right: 0;
+}
+
+.label {
+    display: block;
+    font-size: 1em;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.input, .select {
+    width: 100%;
+    padding: 12px;
+    font-size: 1em;
+    border: 1px solid #d8dee4;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+.input:focus, .select:focus {
+    border-color: #0056b3;
+    outline: none;
+}
+
+.button {
+    width: 100%;
+    padding: 14px;
+    font-size: 1.1em;
+    color: white;
+    background-color: #28a745;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.2s;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}
+
+.footer {
+    margin-top: 30px;
+    font-size: 0.9em;
+    text-align: center;
+    color: #586069;
+}
+
+.footer a {
+    color: #0056b3;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}

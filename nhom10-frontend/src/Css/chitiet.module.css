@@ -1,0 +1,22 @@
+.detailContainer {
+    padding: 20px;
+  }
+  
+  .searchInfo {
+    margin-bottom: 20px;
+  }
+  
+  .resultList {
+    margin-top: 20px;
+  }
+  
+  .resultItem {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .resultItem img {
+    max-width: 100%;
+    height: auto;
+  }

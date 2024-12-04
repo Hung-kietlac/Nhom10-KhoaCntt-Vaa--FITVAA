@@ -1,0 +1,240 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: #f0f8ff;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #007bff;
+    color: white;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.sidebar h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.sidebar .menu-item {
+    width: 90%;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    transition: background 0.3s;
+    cursor: pointer;
+}
+
+.sidebar .menu-item:hover {
+    background-color: #0056b3;
+}
+
+/* Vùng nội dung */
+.content-area {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    text-align: right;
+    font-weight: bold;
+}
+
+.main-content {
+    padding: 20px;
+    display: none;
+}
+
+#customer-management,
+#tour-management,
+#airlinetickets-management,
+#statistics-report {
+    display: none; /* Ẩn các phần khác nhau khi chưa được chọn */
+}
+
+/* Quản lý khách hàng */
+#customer-management {
+    background-color: #ecf3f1;
+    color: rgb(14, 13, 13);
+    padding: 20px;
+}
+
+#customer-management h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+#customer-management .form-group {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#customer-management .form-group label {
+    flex-basis: 30%;
+    font-weight: bold;
+}
+
+#customer-management .form-group input,
+#customer-management .form-group select {
+    flex-basis: 65%;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    color: #333;
+}
+
+#customer-management .button-group button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    color: white;
+    margin: 5px;
+}
+
+.button-group .add-btn { background-color: #28a745; }
+.button-group .update-btn { background-color: #ffc107; }
+.button-group .delete-btn { background-color: #dc3545; }
+
+#customer-management table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    color: black;
+    margin-top: 20px;
+}
+
+#customer-management th,
+#customer-management td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+#customer-management th {
+    background-color: #333;
+    color: white;
+}
+
+/* Quản lý tour */
+#tour-management {
+    background-color: #ecf3f1;
+    color: rgb(14, 13, 13);
+    padding: 20px;
+}
+
+#tour-management h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+#tour-management .form-group {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#tour-management .form-group label {
+    flex-basis: 30%;
+    font-weight: bold;
+}
+
+#tour-management .form-group input,
+#tour-management .form-group select {
+    flex-basis: 65%;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    color: #333;
+}
+
+#tour-management .button-group button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    color: white;
+    margin: 5px;
+}
+
+.button-group .add-btn { background-color: #28a745; }
+.button-group .update-btn { background-color: #ffc107; }
+.button-group .delete-btn { background-color: #dc3545; }
+
+#tour-management table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    color: black;
+    margin-top: 20px;
+}
+
+#tour-management th,
+#tour-management td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+#tour-management th {
+    background-color: #333;
+    color: white;
+}
+
+/* Quản lý vé máy bay */
+#airlinetickets-management {
+    background-color: #ecf3f1;
+    color: rgb(14, 13, 13);
+    padding: 20px;
+}
+
+/* Báo cáo thống kê */
+#statistics-report {
+    background-color: #ecf3f1;
+    color: rgb(14, 13, 13);
+    padding: 20px;
+}
+
+.report-button-group {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.report-button {
+    padding: 20px;
+    font-size: 18px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 30%;
+    text-align: center;
+}
+
+.report-button:hover {
+    background-color: #2980b9;
+}
+
+.report-number {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #ffffff;
+}

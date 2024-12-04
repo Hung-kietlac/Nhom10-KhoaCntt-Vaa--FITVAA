@@ -1,0 +1,31 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #003366;
+    color: #ffffff;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.menu button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    margin: 0 0.5rem;
+    cursor: pointer;
+}
+
+.authButtons button {
+    background-color: #ffffff;
+    color: #003366;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    cursor: pointer;
+}

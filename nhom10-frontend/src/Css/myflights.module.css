@@ -1,0 +1,25 @@
+.flightContainer {
+    padding: 20px;
+  }
+  
+  .flightForm {
+    margin-bottom: 20px;
+  }
+  
+  .formGroup {
+    margin-bottom: 10px;
+  }
+  
+  .searchButton {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .flightDetails {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+  }
